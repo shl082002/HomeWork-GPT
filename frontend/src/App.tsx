@@ -1,11 +1,14 @@
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Dashboard from "./components/Dashboard";
+import Auth from "./components/Auth";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <h1 className="text-[5rem] text-red-500">Home work gpt begins</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Auth />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
