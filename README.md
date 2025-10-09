@@ -36,3 +36,12 @@
 ## Improvements & Tradeoffs
 
 - The current implementation uses free-tier services, which impose certain limitations on speed and accuracy. Integrating more advanced or paid tools can significantly enhance performance and reliability.
+
+## Use of LLMs and AI Tools
+
+- ChatGPT was utilized for mind mapping and code generation.
+- CursorAI assisted with development tasks.
+- Stitch was used for design purposes.
+- This project primarily demonstrates prompt engineering. While I make extensive use of AI tools, the focus is on understanding and guiding the code. AI can generate code, but human direction is essential. Rather than memorizing syntax, it's more valuable to learn how to leverage AI to improve and simplify development.
+
+> **Note:** The embedding service used in this project is intended for local use only. The required model files are several gigabytes in size and cannot be pushed to GitHub. For this reason, the embedding service is not hosted online. However, I will provide a demo video showcasing all features. This project is a proof-of-concept and not meant for production use; some features may be experimental or subject to change. Please use the recommended setup and review the code before deploying in critical environments.
